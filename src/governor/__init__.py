@@ -9,6 +9,16 @@ from .platform_security import (
     SecretBindingAudit,
     WorkloadRBACValidation,
 )
+from .gemini_governance import (
+    LicenseTier,
+    IntegrationConnectorType,
+    DataSensitivityClass,
+    LicenseAllocation,
+    EnterpriseIntegrationConfig,
+    LicenseAuditResult,
+    IntegrationAuditResult,
+    GeminiEnterpriseGovernor,
+)
 
 __all__ = [
     "ActionType",
@@ -22,4 +32,12 @@ __all__ = [
     "AccessEvaluationResult",
     "SecretBindingAudit",
     "WorkloadRBACValidation",
+    "LicenseTier",
+    "IntegrationConnectorType",
+    "DataSensitivityClass",
+    "LicenseAllocation",
+    "EnterpriseIntegrationConfig",
+    "LicenseAuditResult",
+    "IntegrationAuditResult",
+    "GeminiEnterpriseGovernor",
 ]
